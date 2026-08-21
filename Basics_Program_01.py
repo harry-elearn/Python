@@ -9,3 +9,4 @@ print(num,type(num))
 input_var = input("please enter data as per your wish")
 print(input_var)
 
+#adding from the Github edit option from web
