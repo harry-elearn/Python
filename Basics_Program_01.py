@@ -9,4 +9,3 @@ print(num,type(num))
 input_var = input("please enter data as per your wish")
 print(input_var)
 
-#Added this comment from Github edit 
