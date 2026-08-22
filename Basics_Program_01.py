@@ -36,3 +36,15 @@ print("Value of p is %%s", p)
 print("Value of p is %s" %p)
 
 
+#Operators
+#Arithmetic#Relational#Assignment#Logical
+# Type Conversion
+
+num1 = 10
+num2 = '20'
+#result = num1 + num2 
+#Python does not support implict type conversion. Above cause Type Error
+# Below is Explict Type conversion (Also called as Type Casting)
+result = num1 + int(num2)
+print(result)
+
