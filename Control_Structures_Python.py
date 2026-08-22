@@ -44,3 +44,35 @@ elif (q>r):
 else :
     print("r is greatest")
 
+
+'''
+write a program that displays message given below:
+1. if it is a mulitple of 3, display 'Tic'
+2. if it is a multiple of 5, display 'Tac'
+3. if it is a multiple of 3 and 5, display 'Toe'
+4. if it does not satisfy any of the condition, display 'Oooops'
+'''
+
+inp = int(input("enter number and I will check if its multiple of 3 or 5 or none of these. Lets try!!"))
+
+if (inp%3 == 0):
+    if (inp%5 == 0):
+        print("Toe")
+    else:
+        print("Tic")
+elif (inp%5 == 0):
+    print("Tac")
+else:
+    print("Oooops")
+ 
+
+"""
+Ternary Operators
+num = int(input("Enter a number: "))
+print('Toe' if num % 15 == 0 else 'Tic' if num % 3 == 0 else 'Tac' if num % 5 == 0 else 'Oops')
+
+
+#The interpreter views your code as a series of nested "if not this, then try that" choices.
+'Toe' if num % 15 == 0 else ('Tic' if num % 3 == 0 else ('Tac' if num % 5 == 0 else 'Oops'))
+
+"""
