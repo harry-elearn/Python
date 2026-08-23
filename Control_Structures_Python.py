@@ -104,3 +104,5 @@ for i in range(10):
         break
 else:
     print("There was no Break. Finished Printing all numbers!!")
+
+#while
