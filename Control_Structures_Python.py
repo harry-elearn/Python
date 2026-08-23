@@ -76,3 +76,31 @@ print('Toe' if num % 15 == 0 else 'Tic' if num % 3 == 0 else 'Tac' if num % 5 ==
 'Toe' if num % 15 == 0 else ('Tic' if num % 3 == 0 else ('Tac' if num % 5 == 0 else 'Oops'))
 
 """
+
+#for-loop
+
+for number in 2,1,4,3,5:
+    print("The number is : ", number)
+
+
+start = 1
+end = 10
+step = 2
+
+for number in range(start,end,step):
+    print("The current number is : ", number)
+
+
+#for-else loop
+
+for i in range(10):
+    print(i)
+else:
+    print("There was no Break. Finished Printing all numbers!!")
+
+for i in range(10):
+    print(i)
+    if i ==3:
+        break
+else:
+    print("There was no Break. Finished Printing all numbers!!")
