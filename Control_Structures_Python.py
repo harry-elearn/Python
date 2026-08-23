@@ -77,6 +77,8 @@ print('Toe' if num % 15 == 0 else 'Tic' if num % 3 == 0 else 'Tac' if num % 5 ==
 
 """
 
+
+
 #for-loop
 
 for number in 2,1,4,3,5:
@@ -96,13 +98,31 @@ for number in range(start,end,step):
 for i in range(10):
     print(i)
 else:
-    print("There was no Break. Finished Printing all numbers!!")
+    print("There was no Break. Finished Printing all numbers FOR you!!")
 
 for i in range(10):
     print(i)
     if i ==3:
         break
 else:
-    print("There was no Break. Finished Printing all numbers!!")
+    print("There was no Break. Finished Printing all numbers FOR you!!")
+
 
 #while
+
+number = 5
+count = 1
+
+while count <= number:
+    print("The count is : ", count)
+    count+=1
+
+#while-else
+
+i = 1
+
+while i < 10 :
+    print(i)
+    i+=1
+else:
+    print("There was no Break. Finished printing numbers in a While !!!!")
