@@ -126,3 +126,60 @@ while i < 10 :
     i+=1
 else:
     print("There was no Break. Finished printing numbers in a While !!!!")
+
+
+#Exercise Programs for for-loop
+for number in range(1,10):
+    print("The current number is : ", number)
+
+print("--------------------------------------")
+
+for number in range(1,7,2):
+    print("The current number is : ",number)
+
+print("--------------------------------------")
+
+for number in range(5,0,-1):
+    print("The current number is : ",number)
+
+
+
+#Nested Loops
+
+
+print("---- for -----")
+number_of_passengers = 5
+number_of_baggages = 2
+security_checks = True
+for passenger_count in range(1, number_of_passengers+1):
+    for baggage_count in range(1,number_of_baggages+1):
+        if(security_checks==True):
+            print("Security check of passenger ", passenger_count, "-- baggage :", baggage_count,"baggage cleared")
+        else:
+            print("Security check of passenger ", passenger_count,"-- baggage :", baggage_count,"baggage cleared")
+
+#Optimized
+print("----- Optimized -----")
+number_of_passengers = 5
+number_of_baggages = 2
+security_checks = True
+status = "baggage cleared" if security_checks else "baggage not cleared"
+for passenger_count in range(1,number_of_passengers+1):
+    for baggage_count in range(1,number_of_baggages+1):
+        print("Security check of passenger ", passenger_count,"-- baggage :",baggage_count, status)
+
+
+#using While
+print("----- While ----")
+number_of_passengers = 5
+number_of_baggages = 2
+security_checks = True
+for passenger_count in range(1,number_of_passengers+1):
+    baggage_count = 1
+    while baggage_count <= number_of_baggages:
+        if (security_checks == True):
+            print("Security check of passenger ", passenger_count,"-- baggage :",baggage_count,"baggage cleared")
+        else:
+            print("Security check of passenger ", passenger_count,"-- baggage :", baggage_count,"baggage not cleared")
+        baggage_count+=1
+
