@@ -203,7 +203,7 @@ while inp > 0:
 print("Total is : ", total)
 
 """
-Altenates: 
+Alternates: 
 
 inp = input("Enter a number: ")
 total = sum(int(digit) for digit in inp if digit.isdigit())
