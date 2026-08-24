@@ -183,3 +183,35 @@ for passenger_count in range(1,number_of_passengers+1):
             print("Security check of passenger ", passenger_count,"-- baggage :", baggage_count,"baggage not cleared")
         baggage_count+=1
 
+
+'''
+Write a Python program to find the sum of digits of a given number.
+
+Example: Sum of digits of the number 123 will be 6
+
+Note: Initialize the number with various values and test your program.
+'''
+
+inp = int(input("Enter a number and I will add digits. Cool right. Now please enter."))
+
+total = 0
+while inp > 0:
+    rem = inp%10
+    total+=rem
+    inp = inp//10
+    print(inp)
+print("Total is : ", total)
+
+"""
+Aletnates: 
+
+inp = input("Enter a number: ")
+total = sum(int(digit) for digit in inp if digit.isdigit())
+print("Total is:", total)
+
+
+inp = input("Enter a number: ")
+total = sum(map(int, inp))
+print("Total is:", total)
+
+"""
