@@ -235,3 +235,14 @@ for i in range(1,5):
     if i == 3 :
         pass
     print(i)
+
+
+# in usage
+
+for alpha in ('a','b','c','d','e'):
+    if alpha in ('a','b'):
+        print("first  two")
+    else:
+        print("Others")
+
+              
