@@ -237,7 +237,7 @@ for i in range(1,5):
     print(i)
 
 
-# in usage
+# in usage 
 
 for alpha in ('a','b','c','d','e'):
     if alpha in ('a','b'):
@@ -245,4 +245,7 @@ for alpha in ('a','b','c','d','e'):
     else:
         print("Others")
 
-              
+
+#Program to check Prime
+
+
